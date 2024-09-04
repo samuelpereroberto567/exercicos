@@ -1,0 +1,47 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container do grid */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+
+/* Estilo geral dos itens */
+.item {
+    background-color: #3007e6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efeitos de hover */
+.item:hover {
+    background-color: #333;
+    transform: scale(1.05);
+}
+
+/* Cores específicas dos itens */
+.item1 { background-color: #da1c0e; }
+.item2 { background-color: #0fd6bc; }
+.item3 { background-color: #17dd21; }
+.item4 { background-color: #0071f1; }
+.item5 { background-color: #eeff00; }
+.item6 { background-color: #2196f3; }
+.item7 { background-color: #2196f3; }
+.item8 { background-color: #0f5086; }
+.item9 { background-color: #004177; }
+.item10 { background-color: #053964; }

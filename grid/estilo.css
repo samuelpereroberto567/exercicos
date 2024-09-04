@@ -1,0 +1,85 @@
+/* Reset básico */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Container principal */
+.constante {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas de igual largura */
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Estilo para cada bloco de imagem e texto */
+.constante > div {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Coluna da imagem menor que a do texto */
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para as imagens */
+.constante img {
+    width: 100%; /* Faz a imagem ocupar toda a largura da coluna */
+    border-radius: 8px;
+}
+
+/* Estilo para os textos */
+.constante p {
+    margin: 0;
+}
+
+.constante a {
+    font-weight: bold;
+    color: #6c63ff;
+    text-decoration: none;
+}
+
+/* Estilo para o cabeçalho */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+
+   /* border-bottom: 4px solid #6c63ff;*/
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.header nav {
+    margin-top: 10px;
+}
+
+.header ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header ul li {
+    display: inline;
+}
+
+.header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header ul li a:hover {
+    text-decoration: underline;
+}
