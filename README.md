@@ -1,8 +1,8 @@
-###estrutura de dados
+# estrutura de dados
 
-##esse e opcional
+## esse e opcional
 - npm install --save prompt-sync-history
 
-##primeiro comando a ser executado
+## primeiro comando a ser executado
 
 - npm install prompt-sync
